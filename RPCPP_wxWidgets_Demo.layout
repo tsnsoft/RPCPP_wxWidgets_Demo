@@ -1,0 +1,32 @@
+[
+    {
+        "caretX": 1,
+        "caretY": 36,
+        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic3/RPCPP_wxWidgets_Demo/main.cpp",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 0,
+        "top": 400
+    },
+    {
+        "caretX": 1,
+        "caretY": 12,
+        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic3/RPCPP_wxWidgets_Demo/controls.cpp",
+        "focused": false,
+        "isOpen": true,
+        "left": 0,
+        "order": 1,
+        "top": 0
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "D:/Projects/CppProjects/Programming_in_CPP_2025/Topic3/RPCPP_wxWidgets_Demo/gui.cpp",
+        "focused": true,
+        "isOpen": true,
+        "left": 0,
+        "order": 2,
+        "top": 225
+    }
+]
