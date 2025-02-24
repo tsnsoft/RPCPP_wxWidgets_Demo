@@ -32,10 +32,10 @@ RPCPP_wxWidgets_Demo.exe: $(OBJ)
 controls.o: controls.cpp gui.h main.h
 	$(CXX) -c "controls.cpp" -o "controls.o" $(CXXFLAGS) 
 
-gui.o: gui.cpp gui.h
+gui.o: gui.cpp gui.h main.h
 	$(CXX) -c "gui.cpp" -o "gui.o" $(CXXFLAGS) 
 
-main.o: main.cpp gui.h tsnsoft.xpm main.h
+main.o: main.cpp gui.h main.h
 	$(CXX) -c "main.cpp" -o "main.o" $(CXXFLAGS) 
 
 RPCPP_wxWidgets_Demo_private.res: RPCPP_wxWidgets_Demo_private.rc 

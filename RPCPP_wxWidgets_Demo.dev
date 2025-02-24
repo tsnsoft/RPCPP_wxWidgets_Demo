@@ -1,7 +1,7 @@
 [Project]
 filename = RPCPP_wxWidgets_Demo.dev
 name = RPCPP_wxWidgets_Demo
-UnitCount = 7
+UnitCount = 8
 Type = 1
 Ver = 3
 Includes = D:/Development/RedPanda-CPP/wxWidgets/include;D:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib/mswud
@@ -77,11 +77,11 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = main.h
-CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
+FileName = controls.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -116,11 +116,11 @@ RealEncoding = UTF-8
 
 
 [Unit5]
-FileName = main.cpp
-CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
+FileName = main.h
+CompileCpp = 0
+Folder = Headers
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -129,19 +129,6 @@ RealEncoding = UTF-8
 
 
 [Unit6]
-FileName = controls.cpp
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
-CompileCpp = 1
-
-
-[Unit7]
 FileName = tsnsoft.xpm
 Folder = Others
 Compile = 0
@@ -154,8 +141,8 @@ RealEncoding = ASCII
 CompileCpp = 0
 
 
-[Unit8]
-FileName = gui.fbp
+[Unit7]
+FileName = wxwidgets.xpm
 Folder = Others
 Compile = 0
 Link = 0
@@ -163,7 +150,21 @@ Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = 
+RealEncoding = ASCII
+CompileCpp = 1
+
+
+[Unit8]
+FileName = main.cpp
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+CompileCpp = 1
 
 
 [CompilerSettings]
