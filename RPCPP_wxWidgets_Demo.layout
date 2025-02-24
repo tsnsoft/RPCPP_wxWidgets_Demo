@@ -2,7 +2,16 @@
     {
         "caretX": 1,
         "caretY": 1,
-        "filename": "D:/Workspace/GitHub/Programming_in_CPP_2025/Topic3/RPCPP_wxWidgets_Demo/controls.cpp",
+        "filename": "D:/Projects/CppProjects/RedPandaCppProjects/RPCPP_wxWidgets_Demo/gui.cpp",
+        "focused": false,
+        "isOpen": false,
+        "left": 0,
+        "top": 0
+    },
+    {
+        "caretX": 1,
+        "caretY": 1,
+        "filename": "D:/Projects/CppProjects/RedPandaCppProjects/RPCPP_wxWidgets_Demo/controls.cpp",
         "focused": true,
         "isOpen": true,
         "left": 0,
