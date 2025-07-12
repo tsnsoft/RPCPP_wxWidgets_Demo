@@ -4,15 +4,15 @@ name = RPCPP_wxWidgets_Demo
 UnitCount = 8
 Type = 1
 Ver = 3
-Includes = D:/Development/RedPanda-CPP/wxWidgets/include;D:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib/mswud
-Libs = D:/Development/RedPanda-CPP/wxWidgets/lib/gcc_lib
+Includes = C:/DevTools/Libs/wxWidgets/include;C:/DevTools/Libs/wxWidgets/lib/gcc_lib/mswud
+Libs = C:/DevTools/Libs/wxWidgets/lib/gcc_lib
 Bins = 
 ResourceIncludes = 
 MakeIncludes = 
 PrivateResource = RPCPP_wxWidgets_Demo_private.rc
 Compiler = 
 CppCompiler = -pipe -mthreads -D__GNUWIN32__ -D__WXMSW__ -DwxUSE_UNICODE -Wall -g -O0
-Linker = -mthreads -lwxmsw32ud_core -lwxbase32ud -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -finput-charset=utf-8 -static
+Linker = -mthreads -lwxmsw33ud_core -lwxbase33ud -lgdiplus -lmsimg32 -lwxpngd -lwxjpegd -lwxtiffd -lwxzlibd -lwxregexud -lkernel32 -luser32 -lgdi32 -lwinspool -lcomdlg32 -ladvapi32 -lshell32 -lole32 -loleaut32 -luuid -lcomctl32 -lwsock32 -lodbc32 -lshlwapi -lversion -loleacc -luxtheme -mwindows -lstdc++ -finput-charset=utf-8 -lsqlite3 -static
 ResourceCommand = 
 IsCpp = 1
 Icon = app.ico
@@ -44,11 +44,11 @@ UseUTF8 = 1
 
 
 [Unit1]
-FileName = gui.h
-CompileCpp = 0
-Folder = Headers
-Compile = 0
-Link = 0
+FileName = gui.cpp
+CompileCpp = 1
+Folder = Sources
+Compile = 1
+Link = 1
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
@@ -77,16 +77,16 @@ SyncProduct = 1
 
 
 [Unit2]
-FileName = main.cpp
+FileName = tsnsoft.xpm
 CompileCpp = 1
-Folder = Sources
-Compile = 1
-Link = 1
+Folder = Others
+Compile = 0
+Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = UTF-8
+RealEncoding = ASCII
 
 
 [Unit3]
@@ -116,16 +116,16 @@ RealEncoding = UTF-8
 
 
 [Unit5]
-FileName = tsnsoft.xpm
+FileName = gui.h
 CompileCpp = 0
-Folder = Others
+Folder = Headers
 Compile = 0
 Link = 0
 Priority = 1000
 OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
-RealEncoding = ASCII
+RealEncoding = UTF-8
 
 
 [Unit6]
@@ -142,6 +142,19 @@ CompileCpp = 1
 
 
 [Unit7]
+FileName = main.cpp
+Folder = Sources
+Compile = 1
+Link = 1
+Priority = 1000
+OverrideBuildCmd = 0
+BuildCmd = 
+FileEncoding = PROJECT
+RealEncoding = UTF-8
+CompileCpp = 1
+
+
+[Unit8]
 FileName = gui.fbp
 Folder = Others
 Compile = 0
@@ -151,19 +164,6 @@ OverrideBuildCmd = 0
 BuildCmd = 
 FileEncoding = PROJECT
 RealEncoding = ASCII
-CompileCpp = 1
-
-
-[Unit8]
-FileName = gui.cpp
-Folder = Sources
-Compile = 1
-Link = 1
-Priority = 1000
-OverrideBuildCmd = 0
-BuildCmd = 
-FileEncoding = PROJECT
-RealEncoding = UTF-8
 CompileCpp = 1
 
 
